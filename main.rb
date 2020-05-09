@@ -40,7 +40,7 @@ class Viking
   def take_damage(damage)
     self.health -= damage
     puts "Ouch! #{@name} has taken #{damage} damage! He has #{@health} left!"
-    die if health <= 0
+    die if @health <= 0
   end
 
   private
