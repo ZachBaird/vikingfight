@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'colorize'
-require_relative 'viking.rb'
+require_relative 'viking'
 
 # Prints Viking status to the terminal
 def print_stats(viking)
