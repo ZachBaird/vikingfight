@@ -46,7 +46,7 @@ class Viking
   private
 
   def die
-    puts "#{name} has died!"
+    puts "#{@name} has died!"
     @dead = true
   end
 end
